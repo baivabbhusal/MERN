@@ -1,0 +1,126 @@
+   [
+ {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+
+    },
+    {
+      "id": 2,
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+
+    },
+  {
+    "id": 3,
+    "title": "Samsung Galaxy S21",
+    "description": "Next-generation smartphone with powerful performance and sleek design.",
+    "price": 799,
+    "discountPercentage": 10.5,
+    "rating": 4.5,
+    "stock": 50,
+    "brand": "Samsung",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Redmi Note 11",
+    "description": "Budget-friendly phone with high performance and long battery life.",
+    "price": 199,
+    "discountPercentage": 8.0,
+    "rating": 4.2,
+    "stock": 120,
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+  },
+  {
+    "id": 5,
+    "title": "OnePlus 11",
+    "description": "Flagship killer with Snapdragon 8 Gen 2 and stunning AMOLED display.",
+    "price": 699,
+    "discountPercentage": 14.3,
+    "rating": 4.7,
+    "stock": 40,
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Motorola G Power",
+    "description": "Affordable Android with great battery backup and clean UI.",
+    "price": 149,
+    "discountPercentage": 11.2,
+    "rating": 4.0,
+    "stock": 75,
+    "brand": "Motorola",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Google Pixel 7",
+    "description": "Pure Android experience with top-tier camera and Google’s Tensor chip.",
+    "price": 599,
+    "discountPercentage": 13.5,
+    "rating": 4.6,
+    "stock": 60,
+    "brand": "Google",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Realme Narzo 60",
+    "description": "Entry-level gaming phone with MediaTek chipset and high refresh rate display.",
+    "price": 179,
+    "discountPercentage": 9.0,
+    "rating": 4.1,
+    "stock": 110,
+    "brand": "Realme",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Asus ROG Phone 7",
+    "description": "Gaming beast with RGB lights, air triggers, and top performance.",
+    "price": 1099,
+    "discountPercentage": 15.0,
+    "rating": 4.8,
+    "stock": 30,
+    "brand": "Asus",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Nokia G21",
+    "description": "Reliable smartphone with clean Android and long-lasting battery.",
+    "price": 129,
+    "discountPercentage": 7.5,
+    "rating": 3.9,
+    "stock": 95,
+    "brand": "Nokia",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpg"
+  }
+
+
+]
