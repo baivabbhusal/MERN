@@ -7,4 +7,9 @@ function createJwt(data) {
   });
   return token;
 }
+
+function verifyJWT(authToken){
+    jwt.verify(authToken,config.jwtSecret);
+}
+
 export {createJwt}
