@@ -8,8 +8,14 @@ function createJwt(data) {
   return token;
 }
 
-function verifyJWT(authToken){
-    jwt.verify(authToken,config.jwtSecret);
+async function verifyJWT(authToken){
+  return await new Promise((resolve,reject)=>{
+      jwt.verify(authToken,config.jwtSecret,(error,data)=>{
+      if (error) return reject(error);
+
+      return resolve(data);
+    });
+    });
 }
 
-export {createJwt}
+export {createJwt, verifyJWT}
