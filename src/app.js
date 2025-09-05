@@ -7,6 +7,8 @@ import authRoute from "./routes/authRoute.js";
 import connectDb from "./config/database.js";
 import config from "./config/config.js";
 import todosroute from "./routes/todosroute.js";
+import logger from "./middlewares/logger.js";
+import auth from "./middlewares/auth.js";
 const app=express();
 connectDb();
 
@@ -26,13 +28,17 @@ app.get("/",(req,res)=>{
 })
 
 app.use(bodyParser.json());
+
+app.use(logger)
+app.use(auth)
+
 app.use("/api/products",productRoute)
 
 
 app.use("/todos",todosroute);
 
 app.use("/api/auth",authRoute);
-app.use("/api/users",userRoute);
+app.use("/api/users",auth,userRoute);
 app.listen(5000,()=>{
     console.log(`Server running at port ${config.port}`)
 })
